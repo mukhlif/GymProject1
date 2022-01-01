@@ -37,6 +37,9 @@ public class menuBar extends javax.swing.JFrame {
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
         ExitVAr = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
 
@@ -80,6 +83,17 @@ public class menuBar extends javax.swing.JFrame {
         jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jMenuBar2.add(jMenu2);
 
+        jMenu4.setText("View");
+        jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+
+        jMenuItem4.setText("Sports");
+        jMenu4.add(jMenuItem4);
+
+        jMenuItem6.setText("Available Places");
+        jMenu4.add(jMenuItem6);
+
+        jMenuBar2.add(jMenu4);
+
         ExitVAr.setText("Other");
         ExitVAr.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
@@ -103,7 +117,7 @@ public class menuBar extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 364, Short.MAX_VALUE)
+            .addGap(0, 366, Short.MAX_VALUE)
         );
 
         pack();
@@ -165,11 +179,14 @@ public class menuBar extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
     // End of variables declaration//GEN-END:variables
 }
